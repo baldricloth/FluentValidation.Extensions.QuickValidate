@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>FluentValidation.Extensions.QuickValidate</AssemblyName>
+    <RootNamespace>FluentValidation.Extensions.QuickValidate</RootNamespace>
+    <Description>Validation extension for FluentValidation framework</Description>
+    <PackageProjectUrl>https://github.com/baldricloth/FluentValidation.Extensions.QuickValidate</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/baldricloth/FluentValidation.Extensions.QuickValidate.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>FluentValidation</PackageTags>
+    <Copyright>Baldric Lothbrok</Copyright>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageId>FluentValidation.Extensions.QuickValidate</PackageId>
+    <Authors>Baldric Lothbrok</Authors>
+    <Company>RebellionDev</Company>
+    <Product>FluentValidation.Extensions.QuickValidate</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="6.4.1" />
+  </ItemGroup>
+
+</Project>
