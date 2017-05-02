@@ -17,12 +17,25 @@ using FluentValidation.Results;
 
 namespace FluentValidation.Extensions.QuickValidate
 {
+    /// <summary>
+    /// Class that contains the result from the validation
+    /// Inherited from FluentValidation framework
+    /// </summary>
     public class ExtensionResult
     {
+        /// <summary>
+        /// Indicates is the result from the validation is valid
+        /// </summary>
         public bool IsValid { get; set; }
 
+        /// <summary>
+        /// Contais the result of the validation
+        /// </summary>
         public ValidationResult ValidationResult { get; set; }
 
+        /// <summary>
+        /// Contains the error from the Validarion
+        /// </summary>
         public IList<ValidationFailure> ValidationFailures { get; set; }
     }
 }

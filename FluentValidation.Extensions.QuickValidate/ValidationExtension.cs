@@ -14,8 +14,18 @@
 
 namespace FluentValidation.Extensions.QuickValidate
 {
+    /// <summary>
+    /// Extension to easily invoke the validation of an object
+    /// </summary>
     public static class ValidationExtension
     {
+        /// <summary>
+        /// Validate an data in an object using an Abstract Validator
+        /// </summary>
+        /// <typeparam name="V">Abstract Validator</typeparam>
+        /// <typeparam name="T">ObjectType to Validate</typeparam>
+        /// <param name="toValidate">Object to Validate</param>
+        /// <returns></returns>
         public static ExtensionResult Validate<V, T>(this T toValidate) where V : class, new() where T : class
         {
             var validatorInstance = new V() as AbstractValidator<T>;
