@@ -17,7 +17,7 @@ An easy way to invoke the validator from FluentValidation framework.
 ```
 
 # FluentValidation
-An amazing framework that let you easily validate the data in the properties of an object.
+An amazing framework that lets you easily validate the data in the properties of an object.
 
 Project page: https://github.com/JeremySkinner/FluentValidation
 
